@@ -308,12 +308,17 @@ nav ul li a:hover::after{
 
 .contact-right-col{
     flex-basis: 60%;
+    display: flex;
+    justify-content: center;
 }
 .contact-right-col form{
-    flex-basis: 75%;
+    width: 100%;
+    max-width: 500px;
 }
-form input, form textarea{
-    width: 75%;
+form input, 
+form textarea{
+    width: 100%;
+    box-sizing: border-box;
     border: 0;
     outline: none;
     background: #262626;
