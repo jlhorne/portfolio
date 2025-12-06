@@ -82,6 +82,12 @@ nav ul li a:hover::after{
     color: #ababab;
 }
 
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -346,6 +352,40 @@ form textarea{
     color: #61b752;
     margin-top: 10px;
     display: block;
+}
+
+/*-------------Modal-------------*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  position: relative;
+  margin: 5% auto;
+  width: 90%;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
 }
 
 /*-------------CSS for small screen-------------*/
